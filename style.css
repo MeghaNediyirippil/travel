@@ -1,0 +1,152 @@
+.nav{
+    margin-left: 120px;
+}
+.nav-item:hover{
+ font-size: 20px;
+ text-shadow: 1px 2px 3px ;
+}
+.travelhead{
+  font-family:  'Kaushan Script', cursive;
+}
+
+.img1{
+   
+    background-image: url(https://images.pond5.com/travel-scenes-after-effects-after-effect-170370174_iconl.jpeg);
+    background-repeat: no-repeat;
+    
+}
+.header{
+    background-image: url(https://wallpapershome.com/images/wallpapers/italy-2560x1440-coast-5k-4k-wallpaper-8k-tyrrhenian-sea-houses-sky-560.jpg);
+    width: 1515px;
+    height: 900px;
+    background-repeat: no-repeat;
+}
+#headinghover:hover{
+  background-color: white;
+}
+.buttonhover{
+
+}
+#buttonhover:hover{
+background-color: black;
+}
+
+#buttonhover1:hover{
+  background-color: black;
+  }
+.headerheading1{
+    color: rgb(53, 50, 49);
+    font-size: 60px;
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    justify-content: center;
+    
+}
+.headerheading2{
+    color: rgb(53, 50, 49);
+    font-size: 25px;
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    justify-content: center;
+    
+}
+.btnheader{
+    background-color: rgb(122, 175, 228);
+    margin: 100px 300px 500px 600px;
+    padding: 20px;
+    border: 2px ridge white;
+    border-radius: 20px;
+    font-family: 'Kaushan Script', cursive;
+    box-shadow: 2px 2px 3px rgb(13, 63, 97);
+}
+.btnheader:hover{
+    box-shadow: 10px 10px 3px 4px #010b10;
+    transition: 0.5s;
+    /* box-shadow: 1px 3px 3px 4px; */
+}
+
+.bodyheading{
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    text-align: center;
+    justify-content: center;
+}
+.btn1{
+   margin-left: 630px;
+}
+.btnbtn:hover{
+    color: rgb(22, 7, 81);
+    border: 2px solid rgb(10, 10, 87);
+    
+
+
+}
+.row{
+ 
+}
+.col:hover{
+
+}
+
+.col {
+    padding-top: 30px;
+   
+  }
+  
+
+  img {
+    --s: 250px;   /* the size of the image */
+    --b: 8px;     /* the border thickness*/
+    --g: 14px;    /* the gap */
+    --c: #4ECDC4; /* the color */
+    
+    width: var(--s);
+    aspect-ratio: 1;
+    outline: calc(var(--s)/2) solid #0009;
+    outline-offset: calc(var(--s)/-2);
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  img:hover {
+    outline: var(--b) solid var(--c);
+    outline-offset: var(--g);
+  }
+  
+  img + img {
+    border-radius: 50%;
+  }
+.videos{
+    margin-top: 100px;
+    background-color: #4281ce;
+    height: 80px;
+   padding-top: 15px;
+}
+.video{
+    display: flex;
+}
+
+
+
+
+iframe {
+    --g: 4px;     /* the gap */
+    --b: 12px;    /* border thickness*/
+    --c: #4281ce; /* the color */
+    
+    
+    padding: calc(var(--g) + var(--b));
+    --_c: #0000 0 25%, var(--c) 0 50%;
+    --_g1: repeating-linear-gradient(90deg ,var(--_c)) repeat-x;
+    --_g2: repeating-linear-gradient(180deg,var(--_c)) repeat-y;
+    background:
+      var(--_g1) var(--_p, 25%) 0   ,var(--_g2) 0    var(--_p,125%),
+      var(--_g1) var(--_p,125%) 100%,var(--_g2) 100% var(--_p, 25%);
+    background-size: 200% var(--b),var(--b) 200%;
+    cursor: pointer;
+    filter: grayscale(50%);
+    transition: .3s;
+  }
+  iframe:hover {
+    --_p: 75%;
+    filter: grayscale(0%);
+  }
